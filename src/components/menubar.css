@@ -1,0 +1,6 @@
+.svg {
+  color: #ffff;
+  font-size: 30px;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
