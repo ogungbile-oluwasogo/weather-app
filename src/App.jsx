@@ -23,8 +23,8 @@ function App() {
         } else {
           navigator.geolocation.getCurrentPosition(
             async (position) => {
-              const { lat, lon } = position.coords;
-              url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+              const { latitude, longitude } = position.coords;
+              url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
 
               const response = await axios.get(url);
               setData({
