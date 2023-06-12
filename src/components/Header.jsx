@@ -52,7 +52,7 @@ function Header() {
             <a href="https://facebook.com/ogungbile.oluwasogo">Facebook</a>
           </li>
           <li className="navlist">
-            <a href="./">Twitter</a>
+            <a href="https://github.com/ogungbile-oluwasogo">Githup</a>
           </li>
         </ul>
         <div className="xmenu">
@@ -70,7 +70,7 @@ function Header() {
               <a href="./">Facebook</a>
             </li>
             <li className="navlist-mobile">
-              <a href="./">Twitter</a>
+              <a href="https://github.com/ogungbile-oluwasogo">Githup</a>
             </li>
           </ul>
         </div>
